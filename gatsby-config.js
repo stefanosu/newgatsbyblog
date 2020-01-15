@@ -8,7 +8,7 @@ module.exports = {
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-styled-components`, 
     `gatsby-plugin-sharp`, 
-    `gatsby-transformer-sharp`, 
+    `gatsby-transformer-sharp`,
 
     {
       resolve: `gatsby-source-filesystem`,
@@ -48,6 +48,7 @@ module.exports = {
           name: 'images'
         },
       },
-    'gatsby-transformer-remark'
+    'gatsby-transformer-remark',
+    `gatsby-plugin-netlify`, 
   ],
 }
