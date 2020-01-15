@@ -2,9 +2,11 @@ module.exports = {
   siteMetadata: {
     title: `Gatsby Blog`,
     description: `My new Gatsby blog`,
-    author: `@gatsbyjs`,
+    siteUrl: `https://infallible-davinci-7ebed5.netlify.com`,
   },
+  
   plugins: [
+    'gatsby-plugin-sitemap',
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-styled-components`, 
     `gatsby-plugin-sharp`, 
